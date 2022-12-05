@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+
+    <!-- <div class="header">
+        <img src="./logo.PNG" alt="" width="10%">
+        <div>
+        <input type="text" placeholder="Product name,Category name,etc">
+        <input type="button" value="Search">
+        <input type="button" value="login">
+        <input type="text" value="">
+    </div>
+    <div >
+        <!-- <input type="button" value="Login" style="background-color:  #2874f0;"> 
+        
+        <img src="./C.jpg" alt="" width="100%" style="background-color:  #2874f0;">
+    </div>
+    </div> -->
+    <table border="3" width="100%">
+        <tr>
+            <td ><img src="./logo.PNG" alt="" width="30%"></td>
+            <td><input type="text" placeholder="Product name,Category name,etc" style="width: 550px;height:35px;">
+                <input type="button" value="Search" style="width:120px;height:35px;">
+            </td>
+            <td><span><a href="./login.html">Login</a></span> </td>
+            <th><a href="./cart.html"> <img src="./C.jpg" alt="" width="50"></a></th>
+        </tr>
+
+    </table>
+    <nav>
+        <div class="dropdown">
+            <a href="./index.html">Home</a>
+            
+        </div>
+        <div class="dropdown">
+        <a href="./Product.html">All Products</a>
+    </div>
+    <div class="dropdown">
+        <a href="#">Women</a>
+        <div class="dropdown-content">
+            <a href="">All</a><br>
+            <a href="">Dresses</a><br>
+            <a href="">Pants</a><br>
+            <a href="">Skirt</a><br>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Men</a>
+        <div class="dropdown-content">
+            <a href="">All products</a><br>
+            <a href="">Shirts</a><br>
+            <a href="">Pants</a><br>
+            <a href="">Hoodies</a><br>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Kids</a>
+    </div>
+    <div class="dropdown">
+        <a href="./Contact.html">Contact</a>
+    </div>
+    </nav>
+    <div class="container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="mySlides" src="./ship.jpg" style="width: 140%;"></div>
+          <div class="swiper-slide">  <img class="mySlides" src="./computer.jpg" style="width: 140%;"></div>
+          <div class="swiper-slide"> <img class="mySlides" src="./beauty.jpg" style="width: 140%;"></div>
+          <div class="swiper-slide"> <img class="mySlides" src="./makeup.jpg" style="width: 140%;"></div>
+          <div class="swiper-slide"> <img class="mySlides" src="./slider.jpg" style="width: 110%;"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+       
+      </div>
+    </div>
+<!-- <div class="slider-box" >
+  <div id="slider">
+    
+  
+
+   
+    
+    
+</div> -->
+
+
+</div>
+
+
+
+    <table>
+        <td>
+            <ul>
+                <li>Women</li>
+            <li>Dresses</li>
+            <li>Pants</li>
+            <li>Skirts</li>
+            </ul>
+        </td>
+            <td>
+            <ul>
+                <li>Men</li>
+                <li>shirts</li>
+                <li>pants</li>
+                <li>Hoodies</li>
+            </ul>
+
+        </td>
+        <td>
+            <ul>
+                <li>Kids</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Links</li>
+                <li>Home</li>
+                <li>Login</li>
+                <li>Contact</li>
+            </ul>
+        </td>
+<tr><hr></tr>
+        
+        <tr><td><p>Copyright @Ecommerce 2022-2023</p></td></tr>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction:false,
+            },
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+});
+    </script>
+
+</body>
+</html>
